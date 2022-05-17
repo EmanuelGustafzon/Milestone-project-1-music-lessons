@@ -3,10 +3,45 @@ body {
     background-color:#1f345b;
    font-family: roboto, Arial, Helvetica, sans-serif;
    color:#e8eaee;
+   margin: 0 0;
+   padding: 0 0;
+
  
 }
+#logo {
+    float: left;
+    color: #ffa733;
+    font-size: 3rem;
+    letter-spacing: 2px;
 
-h1 {
+}
+
+#menu {
+    font-size: 2,5rem;
+    color: #e8eaee;
+    letter-spacing: 5px;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+  list-style-type: none;
+  margin-right: 40px ;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ 
+  
+
+h1 h2 h3 {
     font-family:poppins;
     color:#ffa733;
 }
+
