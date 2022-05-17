@@ -32,10 +32,13 @@ body {
     font-size: 150%;
     color: #e8eaee;
     letter-spacing: 5px;
+ 
 }
 
 #menu, #logo {
     line-height: 75px;
+    overflow:hidden;
+    
 }
 
 #menu li {
@@ -56,8 +59,47 @@ body {
 
 /* hero image */
 
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    
+
+    position: relative;
+}
+
+#cover-text, #cover-text h2 {
+    font-size: 160%;
+    text-shadow: black 1px 2px;
+    
+    
+   
+}
+
 #hero-image {
     height: 600px;
     width: 100%;
-  background-image:url(../images/sam-moghadam-khamseh-0wFVLpANoYc-unsplash\ 900\ height.jpg);
+  background:url(../images/sam-moghadam-khamseh-0wFVLpANoYc-unsplash\ 900\ height.jpg) no-repeat;
 }
+
+
+
+#cover-text {
+    text-align: center;
+    vertical-align: middle;
+    background-color:rgba(31, 52, 91, 0.8);
+    width: 600px;
+    height: 80px;
+    border-radius: 20px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+
+    bottom: 25%;
+    right: 28%;
+    
+    
+
+    position: absolute;
+    
+}
+    
+
