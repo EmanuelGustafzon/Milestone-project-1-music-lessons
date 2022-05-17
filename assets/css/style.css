@@ -1,23 +1,29 @@
+* {
+    margin: 0;
+    padding: 0 ;
+    border: 0;
+}
 
 body {
     background-color:#1f345b;
    font-family: roboto, Arial, Helvetica, sans-serif;
+   font-weight: 100;
    color:#e8eaee;
-   margin: 0 0;
-   padding: 0 0;
+  
 
  
 }
 #logo {
     float: left;
     color: #ffa733;
-    font-size: 3rem;
+    font-size: 280%;
     letter-spacing: 2px;
+    margin-left: 30px;
 
 }
 
 #menu {
-    font-size: 2,5rem;
+    font-size: 150%;
     color: #e8eaee;
     letter-spacing: 5px;
 }
@@ -36,6 +42,14 @@ body {
     text-decoration: none;
     color: inherit;
 }
+
+#menu a:hover {
+    font-size: 151%;
+    color: #ffa733;
+}
+
+
+    
 
  
   
