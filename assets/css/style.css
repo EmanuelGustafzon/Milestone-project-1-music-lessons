@@ -25,6 +25,7 @@ body {
     font-size: 280%;
     letter-spacing: 2px;
     margin-left: 30px;
+    font-family: poppins, roboto, Arial, sans-serif;
 
 }
 
@@ -32,6 +33,7 @@ body {
     font-size: 150%;
     color: #e8eaee;
     letter-spacing: 5px;
+    font-family: poppins, roboto, Arial, sans-serif;
  
 }
 
@@ -72,6 +74,7 @@ body {
     text-shadow: black 1px 2px;
     
     
+    
    
 }
 
@@ -107,9 +110,10 @@ body {
 #instruments, #instruments h1 {
     text-align: center;
     color: #ffa733;
+    font-family: poppins, roboto, Arial, sans-serif;
     font-size: 160%;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 #guitar-image {
@@ -117,6 +121,10 @@ body {
     width: 25%;
     height: 300px;
     border-radius: 50%;
+    opacity: 0.7;
+    float: left;
+   border: 2px solid #e8eaee;
+   box-sizing: border-box;
 }
 
 #piano-image {
@@ -124,6 +132,10 @@ body {
     width: 25%;
     height: 300px;
     border-radius: 50%;
+    opacity: 0.7;
+    float: left;
+    border: 2px solid #e8eaee;
+    box-sizing: border-box;
 }
 
 #sing-image {
@@ -131,6 +143,10 @@ body {
     width: 25%;
     height: 300px;
     border-radius: 50%;
+    opacity: 0.7;
+    float: left;
+    border: 2px solid #e8eaee;
+    box-sizing: border-box;
 }
 
 #drum-image {
@@ -138,6 +154,21 @@ body {
     width: 25%;
     height: 300px;
     border-radius: 50%;
+    opacity: 0.7;
+    float: left;
+    border: 2px solid #e8eaee;
+    box-sizing: border-box;
+    
 }
+
+#instruments h2 {
+    color: #e8eaee;
+    padding-top: 30%;
+    font-size: 180%;
+    text-shadow: #1f345b 2px 2px ;
+    opacity: 1;
+}
+
+
     
 
