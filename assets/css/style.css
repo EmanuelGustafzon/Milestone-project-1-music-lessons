@@ -101,5 +101,43 @@ body {
     position: absolute;
     
 }
+
+/* Our instruments section */
+
+#instruments, #instruments h1 {
+    text-align: center;
+    color: #ffa733;
+    font-size: 160%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#guitar-image {
+    background:url(../images/caio-silva-C7RFkKvThG4-unsplash\ 300.jpg);
+    width: 25%;
+    height: 300px;
+    border-radius: 50%;
+}
+
+#piano-image {
+    background:url(../images/dolo-iglesias-FjElUqGfbAw-unsplash\ 300.jpg);
+    width: 25%;
+    height: 300px;
+    border-radius: 50%;
+}
+
+#sing-image {
+    background:url(../images/corey-young-1cNpSv61ZDo-unsplash\ 300.jpg);
+    width: 25%;
+    height: 300px;
+    border-radius: 50%;
+}
+
+#drum-image {
+    background:url(../images/puk-khantho-4E0Y320X1BU-unsplash\ 300.jpg);
+    width: 25%;
+    height: 300px;
+    border-radius: 50%;
+}
     
 
