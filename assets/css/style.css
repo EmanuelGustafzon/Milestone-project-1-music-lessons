@@ -9,10 +9,16 @@ body {
    font-family: roboto, Arial, Helvetica, sans-serif;
    font-weight: 100;
    color:#e8eaee;
-  
-
- 
 }
+
+   h1 h2 h3 {
+    font-family:poppins;
+    color:#ffa733;
+}
+
+/* logo and nav */
+ 
+
 #logo {
     float: left;
     color: #ffa733;
@@ -48,14 +54,10 @@ body {
     color: #ffa733;
 }
 
+/* hero image */
 
-    
-
- 
-  
-
-h1 h2 h3 {
-    font-family:poppins;
-    color:#ffa733;
+#hero-image {
+    height: 600px;
+    width: 100%;
+  background-image:url(../images/sam-moghadam-khamseh-0wFVLpANoYc-unsplash\ 900\ height.jpg);
 }
-
