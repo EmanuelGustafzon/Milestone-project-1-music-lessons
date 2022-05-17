@@ -107,7 +107,7 @@ body {
 
 /* Our instruments section */
 
-#instruments, #instruments h1 {
+.instruments, .instruments h1 {
     text-align: center;
     color: #ffa733;
     font-family: poppins, roboto, Arial, sans-serif;
@@ -117,50 +117,63 @@ body {
    
 }
 
+.instruments div {
+    text-align: center;
+    display: inline-block;
+    padding: 60px;
+    margin: 5px;
+    
+}
+
 #guitar-image {
-    background:url(../images/caio-silva-C7RFkKvThG4-unsplash\ 300.jpg);
-    width: 25%;
+    background:url(../images/caio-silva-C7RFkKvThG4-unsplash\ 300.jpg) no-repeat ;
+    width: 300px;
     height: 300px;
     border-radius: 50%;
     opacity: 0.7;
-    float: left;
+    
    border: 2px solid #e8eaee;
    box-sizing: border-box;
+   
 }
 
 #piano-image {
-    background:url(../images/dolo-iglesias-FjElUqGfbAw-unsplash\ 300.jpg);
-    width: 25%;
+    background:url(../images/dolo-iglesias-FjElUqGfbAw-unsplash\ 300.jpg) no-repeat;
+    width: 300px;
     height: 300px;
     border-radius: 50%;
     opacity: 0.7;
-    float: left;
+    
     border: 2px solid #e8eaee;
     box-sizing: border-box;
     padding-bottom: 50px;
+   
+    
 }
 
 #sing-image {
-    background:url(../images/corey-young-1cNpSv61ZDo-unsplash\ 300.jpg);
-    width: 25%;
+    background:url(../images/corey-young-1cNpSv61ZDo-unsplash\ 300.jpg) no-repeat ;
+    width: 300px;
     height: 300px;
     border-radius: 50%;
     opacity: 0.7;
-    float: left;
+  
     border: 2px solid #e8eaee;
     box-sizing: border-box;
+   
 
 }
 
 #drum-image {
-    background:url(../images/puk-khantho-4E0Y320X1BU-unsplash\ 300.jpg);
-    width: 25%;
+    background:url(../images/puk-khantho-4E0Y320X1BU-unsplash\ 300.jpg) no-repeat ;
+    width: 300px;
     height: 300px;
     border-radius: 50%;
     opacity: 0.7;
-    float: left;
+   
     border: 2px solid #e8eaee;
     box-sizing: border-box;
+  
  
     
 }
@@ -176,15 +189,12 @@ body {
 /* Why us page */
 
 
-#why-us {
-    margin-top: 200px;
-}
  #why-us, #why-us h1 {
     text-align: center;
     color: #ffa733;
     font-family: poppins, roboto, Arial, sans-serif;
     font-size: 160%;
-    padding-top: 50px;
+    padding-top: 10px;
     padding-bottom: 40px;
 
 }
