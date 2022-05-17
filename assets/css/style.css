@@ -113,7 +113,8 @@ body {
     font-family: poppins, roboto, Arial, sans-serif;
     font-size: 160%;
     padding-top: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
+   
 }
 
 #guitar-image {
@@ -136,6 +137,7 @@ body {
     float: left;
     border: 2px solid #e8eaee;
     box-sizing: border-box;
+    padding-bottom: 50px;
 }
 
 #sing-image {
@@ -147,6 +149,7 @@ body {
     float: left;
     border: 2px solid #e8eaee;
     box-sizing: border-box;
+
 }
 
 #drum-image {
@@ -158,6 +161,7 @@ body {
     float: left;
     border: 2px solid #e8eaee;
     box-sizing: border-box;
+ 
     
 }
 
@@ -169,6 +173,91 @@ body {
     opacity: 1;
 }
 
+/* Why us page */
 
+
+
+ #why-us, #why-us h1 {
+    text-align: center;
+    color: #ffa733;
+    font-family: poppins, roboto, Arial, sans-serif;
+    font-size: 160%;
+    padding-top: 50px;
+    padding-bottom: 40px;
+
+}
+
+#why-us h2{
+    color: #e8eaee;
+    font-size: 90%;
+}
+
+#why-us p {
+    color: #e8eaee;
+    font-size: 70%;
+}
+#why-us div {
+    float: left;
+    padding-left: 40px;
+    width: 25%;
+    box-sizing: border-box;
+    text-align: center;
+}
     
+hr {
+    border: 1px solid #ffa733;
+}
+
+#why-us > div li {
+    color: #e8eaee;
+    font-size: 70%;
+    list-style:inside;
+}
+
+/*footer*/
+
+footer {
+    height: 150px;
+    background-color: #1999b3;
+    margin-top: 250px;
+}
+
+.social-media {
+    text-align: left;
+padding-top: 50px;
+float: left;
+    
+
+}
+
+.social-media > li {
+    display: inline;
+    top:30%;
+   
+}
+
+.social-media i {
+    font-size: 280%;
+    color: #e8eaee;
+   margin-left: 20px;
+    padding-left:20px ;
+}
+
+.contact {
+    text-align: right;
+    float: right;
+    padding-top: 35px;
+    padding-right: 50px;
+}
+
+.contact th {
+    font-size: 280%;
+}
+
+.contact td {
+    font-size: 150%;
+}
+
+
+
 
