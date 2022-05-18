@@ -19,6 +19,7 @@ body {
 /* logo and nav */
  
 
+
 #logo {
     float: left;
     color: #ffa733;
@@ -42,6 +43,7 @@ body {
 #menu, #logo {
     line-height: 75px;
     overflow:hidden;
+  
     
 }
 
@@ -426,6 +428,7 @@ footer {
         display: inline-block;
     text-align: center;
     margin:0 3% 0 3%;
+    
     
    
 
