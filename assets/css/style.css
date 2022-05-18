@@ -215,7 +215,8 @@ body {
 }
 #why-us div {
     float: left;
-    padding-left: 40px;
+    padding-left: 1%;
+    padding-right: 1%;
     width: 25%;
     box-sizing: border-box;
     text-align: center;
@@ -276,13 +277,16 @@ float: left;
     font-size: 150%;
 }
 
+/* media screens */
+
 @media screen and (max-width: 1300px) {
     
     .instruments div {
         display: block;
-        width: 100%;
-        margin-left: 25%;
-        margin-right: 25%;
+        width: 50%;
+        margin: 0 auto ;
+        margin-top: 2%;
+      
     }
     
 #why-us div {
@@ -298,9 +302,9 @@ hr {
    margin-right:25% ;
 }
 
-}
 
-@media screen and (max-width: 1300px) {
+
+ 
    #logo {
        float: none;
        display: block;
@@ -349,13 +353,15 @@ hr {
    right: 12.5%;
 }
 
+
+
 footer {
     height: 250px;
 }
 
 .social-media {
    
-    text-align: center;
+ text-align: center;
 padding-top: 50px;
 float: none;
     
