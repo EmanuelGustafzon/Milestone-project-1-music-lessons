@@ -234,6 +234,84 @@ float: left;
     color: #e8eaee;
 }
 
+/* details.html page starts here */
+
+#overview {
+    color: #ffa733;
+  text-align: center;
+  font-size: 200%;
+  width: 100%;
+  height: 150px;
+ 
+  overflow: hidden;
+  
+}
+
+#programme-1 {
+    width: 45%;
+    height:600px;
+    float: left;
+    margin: 0;
+    overflow: hidden;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    
+  
+} 
+
+#programme-1 h2{
+font-size: 110%;
+color: #ffa733;
+
+}
+
+#programme-1 p{
+    font-size: 110%;
+    }
+
+    #programme-1 li {
+        list-style-type: none;
+    }
+
+#programme-image-1 {
+    background: url(../images/soundtrap-d0sXdsCnhF8-unsplash\ 800.jpg) no-repeat center center;
+    width: 50%;
+    height:600px;
+    float: right;
+    
+  
+}
+
+#programme-2 {
+    width: 45%;
+    height:600px;
+    float: right;
+    letter-spacing: 1px;
+    overflow: hidden;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-bottom: 5%;
+} 
+
+#programme-2 h2{
+    font-size: 110%;
+    color: #ffa733;
+    }
+    
+    #programme-2 p{
+        font-size: 110%;
+        }
+
+#programme-image-2 {
+    background: url(../images/hans-vivek-By96LAr-34o-unsplash\ 800.jpg) no-repeat center center;
+    width: 50%;
+    height:600px;
+    float: left;
+    margin-bottom: 7%;
+  
+}
+
+
 /* media screens */
 @media screen and (max-width: 1300px) {
     .instruments div {
@@ -294,6 +372,70 @@ footer {
 .contact a {
     font-size: 100%;
 }
+/* here startas the details.html page */
+
+#programme-1 {
+    width: 90%;
+    height:600px;
+    float: none;
+    text-align: center;
+    letter-spacing: 1px;
+    overflow: hidden;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+} 
+
+#programme-1 h2{
+    font-size: 110%;
+    color: #ffa733;
+    
+    }
+    
+    #programme-1 p{
+        font-size: 100%;
+        }
+    
+        #programme-1 li {
+            list-style-type: none;
+        }
+    
+    #programme-image-1 {
+        background: url(../images/soundtrap-d0sXdsCnhF8-unsplash\ 800.jpg) no-repeat center center;
+        width: 100%;
+        height:600px;
+        float: right;
+        
+      
+    }
+    
+    #programme-2 {
+        width: 90%;
+        height:300px;
+        float: none;
+        text-align: center;
+        letter-spacing: 1px;
+        overflow: hidden;
+        margin: 5%;
+    } 
+    
+    #programme-2 h2{
+        font-size: 110%;
+        color: #ffa733;
+        }
+        
+        #programme-2 p{
+            font-size: 100%;
+            }
+    
+    #programme-image-2 {
+        background: url(../images/hans-vivek-By96LAr-34o-unsplash\ 800.jpg) no-repeat center center;
+        width: 100%;
+        height:600px;
+        float: left;
+        margin-bottom: 7%;
+      
+    }
 }
 
 @media screen and (max-width: 660px) {
@@ -405,79 +547,4 @@ footer {
 }
 }
 
-/* details.html page starts here */
 
-#overview {
-    color: #ffa733;
-  text-align: center;
-  font-size: 200%;
-  width: 100%;
-  height: 150px;
- 
-  overflow: hidden;
-  
-}
-
-#div-1 {
-    width: 45%;
-    height:600px;
-    float: left;
-    margin: 0;
-    overflow: hidden;
-    padding-left: 2.5%;
-    padding-right: 2.5%;
-    
-  
-} 
-
-#div-1 h2{
-font-size: 150%;
-color: #ffa733;
-
-}
-
-#div-1 p{
-    font-size: 120%;
-    }
-
-    #div-1 li {
-        list-style-type: none;
-    }
-
-#image-1 {
-    background: url(../images/soundtrap-d0sXdsCnhF8-unsplash\ 800.jpg) no-repeat center center;
-    width: 50%;
-    height:600px;
-    float: right;
-    
-  
-}
-
-#div-2 {
-    width: 45%;
-    height:600px;
-    float: right;
-    letter-spacing: 1px;
-    overflow: hidden;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
-    margin-bottom: 5%;
-} 
-
-#div-2 h2{
-    font-size: 150%;
-    color: #ffa733;
-    }
-    
-    #div-2 p{
-        font-size: 120%;
-        }
-
-#image-2 {
-    background: url(../images/hans-vivek-By96LAr-34o-unsplash\ 800.jpg) no-repeat center center;
-    width: 50%;
-    height:600px;
-    float: left;
-    margin-bottom: 8%;
-  
-}
