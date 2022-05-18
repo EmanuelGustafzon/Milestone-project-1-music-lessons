@@ -183,13 +183,7 @@ body {
     
 }
 
-#instruments h2 {
-    color: #e8eaee;
-    padding-top: 30%;
-    font-size: 180%;
-    text-shadow: #1f345b 2px 2px ;
-    opacity: 1;
-}
+
 
 /* Why us page */
 
@@ -356,26 +350,46 @@ hr {
 
 
 footer {
-    height: 250px;
+    height: 150px;
 }
 
-.social-media {
+.social-media i {
+    font-size: 200%;
+    color: #e8eaee;
+   margin-left: 20px;
+    padding-left:1px ;
+}
+
+.contact th {
+    font-size: 200%;
+}
+
+.contact td {
+    font-size: 100%;
+}
+
+
+/*
+
+* .social-media {
    
- text-align: center;
-padding-top: 50px;
-float: none;
-    
-
-}
+    text-align: center;
+   padding-top: 50px;
+   float: left;
+       
+   
+   }
 
 .contact {
     width: 25%;
  text-align: center;
-    float:none;
+    float:right;
     padding-top: 35px;
    margin-left: 37.5%;
    margin-right: 37.5%;
 }
+
+*/
 
 }
 @media screen and (max-width: 600px) {
@@ -388,25 +402,120 @@ float: none;
     }
 }
 
-@media screen and (max-width: 445px) {
+@media screen and (max-width: 500px) {
     footer {
-        height: 500px;
+        height: 150px;
         width: 100%;
     }
+
+    .social-media i {
+        font-size: 150%;
+        color: #e8eaee;
+       margin-left: 20px;
+        padding-left:1px ;
+    }
     
+    .contact th {
+        font-size: 120%;
+    }
     
+    .contact td {
+        font-size: 120%;
+    }
+    
+    /*
     .social-media {
-       display: block;
-        text-align: center;
-    padding-top: 50px;
-    float: none;
+        display: block;
+         text-align: center;
+     padding-top: 50px;
+     float: none;
         
     
     }
+    
 
     .social-media > li {
         display: block;
         padding-top: 3%;
        
     }
+    */
+
+    #why-us h2{
+        
+        font-size: 90%;
+    }
+    #why-us > div li {
+      
+        font-size: 75%;
+        
+    }
+
+    .instruments, .instruments h1 {
+       
+        font-size: 150%;
+        
+       
+    }
+    #why-us, #why-us h1 {
+     
+        font-size: 150%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #why-us div {
+        float: none;
+        width: 100%;
+        margin: 10% 20% 0 0;
+        padding: 0;
+    }
+/*
+    .contact {
+        width: 25%;
+     text-align: center;
+        float:none;
+        padding-top: 50px;
+       margin-left: 25%;
+       margin-right: 25%;
+    }
+
+   */
+    
+    #why-us h2{
+        
+        font-size: 80%;
+    }
+    #why-us > div li {
+      
+        font-size: 65%;
+        
+    }
+
+    .instruments, .instruments h1 {
+       
+        font-size: 130%;
+        
+       
+    }
+    #why-us, #why-us h1 {
+     
+        font-size: 130%;
+    }
+
+    .social-media i {
+        font-size: 130%;
+        color: #e8eaee;
+       margin-left: 5px;
+        padding-left:2px ;
+    }
+    
+    .contact th {
+        font-size: 100%;
+    }
+    
+    .contact td {
+        font-size: 100%;
+    }
+
 }
