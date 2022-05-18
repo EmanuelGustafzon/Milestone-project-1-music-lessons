@@ -34,7 +34,7 @@ body {
 #menu {
     font-size: 150%;
     color: #e8eaee;
-    letter-spacing: 5px;
+    letter-spacing: 0;
     font-family: poppins, roboto, Arial, sans-serif;
  
 }
@@ -410,6 +410,8 @@ footer {
 #cover-text, #cover-text h2 {
     font-size: 130%;
     text-shadow: black 1px 2px;
+}
+   
     h1 {
         margin-left: 2%;
         margin-right: 2%;
@@ -423,7 +425,7 @@ footer {
         
      
     }
-}
+
 
 
 
@@ -519,11 +521,14 @@ footer {
     }
 
    */
+}
     
-    #why-us h2{
+   #why-us h2{
         
-        font-size: 80%;
-    }
+    font-size: 90%;
+}
+
+
     #why-us > div li {
       
         font-size: 65%;
@@ -555,5 +560,7 @@ footer {
     .contact td {
         font-size: 100%;
     }
+
+}
 
 }
