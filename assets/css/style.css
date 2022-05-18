@@ -3,25 +3,21 @@
     padding: 0 ;
     border: 0;
 }
-
 body {
     background-color:#1f345b;
    font-family: roboto, Arial, Helvetica, sans-serif;
    font-weight: 100;
    color:#e8eaee;
 }
-
    h1 h2 h3 {
     font-family:poppins;
     color:#ffa733;
 }
 
 /* logo and nav */
- 
-header {
+ header {
     position:relative;
 }
-
 #logo {
     float: left;
     color: #ffa733;
@@ -29,7 +25,6 @@ header {
     letter-spacing: 2px;
     margin-left: 5%;
     font-family: poppins, roboto, Arial, sans-serif;
-
 }
 
 
@@ -39,61 +34,44 @@ header {
     color: #e8eaee;
     letter-spacing: 5px;
     font-family: poppins, roboto, Arial, sans-serif;
-    
-}
-
-#menu, #logo {
-    line-height: 75px;
-    overflow:hidden;
-    
-}
-
-#menu li {
     float: right;
+    
+}
+#menu, #logo {
+    line-height: 75px;   
+}
+#menu li {
+    float: left;
   list-style-type: none;
   margin-right: 40px ;
- 
+ direction: rtl;
 }
-
 #menu a {
     text-decoration: none;
     color: inherit;
 }
-
 #menu a:hover {
     font-size: 151%;
     color: #ffa733;
 }
 
 /* hero image */
-
 #hero-outer {
     height: 600px;
     width: 100%;
-    
+    overflow: hidden;
 
     position: relative;
 }
-
 #cover-text, #cover-text h2 {
     font-size: 160%;
-    text-shadow: black 1px 2px;
-    
-    
-    
-   
+    text-shadow: black 1px 2px;  
 }
-
 #hero-image {
     height: 600px;
     width: 100%;
   background:url(../images/sam-moghadam-khamseh-0wFVLpANoYc-unsplash\ 900\ height.jpg) no-repeat center center;
-
-
 }
-
-
-
 #cover-text {
     text-align: center;
     vertical-align: middle;
@@ -103,37 +81,27 @@ header {
     border-radius: 20px;
     padding-top: 25px;
     padding-bottom: 30px;
-
     bottom: 50%;
    left: 25%;
    right: 25%;
-       
-    
-
     position:absolute;
-    
 }
 
 /* Our instruments section */
-
 .instruments, .instruments h1 {
     text-align: center;
     color: #ffa733;
     font-family: poppins, roboto, Arial, sans-serif;
     font-size: 160%;
     padding-top: 10px;
-    padding-bottom: 50px;
-   
+    padding-bottom: 50px; 
 }
-
 .instruments div {
     text-align: center;
     display: inline-block;
     padding: 60px;
-    margin: 5px;
-    
+    margin: 5px;  
 }
-
 #guitar-image {
     background:url(../images/caio-silva-C7RFkKvThG4-unsplash\ 300.jpg) no-repeat ;
     width: 300px;
@@ -142,10 +110,8 @@ header {
     opacity: 0.7;
     
    border: 2px solid #e8eaee;
-   box-sizing: border-box;
-   
+   box-sizing: border-box; 
 }
-
 #piano-image {
     background:url(../images/dolo-iglesias-FjElUqGfbAw-unsplash\ 300.jpg) no-repeat;
     width: 300px;
@@ -159,7 +125,6 @@ header {
    
     
 }
-
 #sing-image {
     background:url(../images/corey-young-1cNpSv61ZDo-unsplash\ 300.jpg) no-repeat ;
     width: 300px;
@@ -169,10 +134,7 @@ header {
   
     border: 2px solid #e8eaee;
     box-sizing: border-box;
-   
-
 }
-
 #drum-image {
     background:url(../images/puk-khantho-4E0Y320X1BU-unsplash\ 300.jpg) no-repeat ;
     width: 300px;
@@ -181,17 +143,10 @@ header {
     opacity: 0.7;
    
     border: 2px solid #e8eaee;
-    box-sizing: border-box;
-  
- 
-    
+    box-sizing: border-box;  
 }
 
-
-
 /* Why us page */
-
-
  #why-us, #why-us h1 {
     text-align: center;
     color: #ffa733;
@@ -199,14 +154,11 @@ header {
     font-size: 160%;
     padding-top: 10px;
     padding-bottom: 40px;
-
 }
-
 #why-us h2{
     color: #e8eaee;
     font-size: 90%;
 }
-
 #why-us p {
     color: #e8eaee;
     font-size: 70%;
@@ -223,7 +175,6 @@ header {
 hr {
     border: 1px solid #ffa733;
 }
-
 #why-us > div li {
     color: #e8eaee;
     font-size: 70%;
@@ -231,71 +182,58 @@ hr {
 }
 
 /*footer*/
-
 footer {
     height: 150px;
     width: 100%;
     background-color: #1999b3;
     margin-top: 250px;
 }
-
 .social-media {
     text-align: left;
 padding-top: 50px;
 float: left;
-    
-
 }
-
 .social-media > li {
     display: inline;
     top:30%;
    
 }
-
 .social-media i {
     font-size: 280%;
     color: #e8eaee;
    margin-left: 20px;
     padding-left:20px ;
 }
-
 .contact {
     text-align: right;
     float: right;
     padding-top: 35px;
     padding-right: 50px;
 }
-
-.contact th {
-    font-size: 280%;
+.contact p {
+    font-size: 200%;
 }
-
-.contact td {
-    font-size: 150%;
+.contact a {
+    font-size: 130%;
+    text-decoration: none;
+    color: #e8eaee;
 }
 
 /* media screens */
-
 @media screen and (max-width: 1300px) {
-    
     .instruments div {
         
         width: 100%;
         display: block;
         margin: 0 auto ;
         margin-top: 1%;
-      
     }
-    
-    
 #why-us div {
     float: none;
     width: 100%;
     margin: 10% 0 0 0;
     padding: 0;
 }
-
 hr {
     width:50%;
    margin-left:25%;
@@ -304,26 +242,12 @@ hr {
 a {
     text-decoration: none;
 }
-
-
-
 @media screen and (max-width: 940px) {
-   
-   
-   /* #menu li {
-        float: none;
-        display:block;
-    text-align: center;
-    margin:0 3% 0 3%;
-}
-*/
-
 #menu {
     font-size: 90%;
     color: #e8eaee;
     letter-spacing: 5px;
     font-family: poppins, roboto, Arial, sans-serif;
- 
 }
 #cover-text {
     text-align: center;
@@ -334,250 +258,132 @@ a {
     border-radius: 20px;
     padding-top: 25px;
     padding-bottom: 30px;
-
     bottom: 50%;
    left: 12.5%;
    right: 12.5%;
 }
-
-
-
 footer {
     height: 150px;
 }
-
 .social-media i {
     font-size: 200%;
     color: #e8eaee;
    margin-left: 20px;
     padding-left:1px ;
 }
-
-.contact th {
+.contact p {
     font-size: 200%;
 }
-
-.contact td {
+.contact a {
     font-size: 100%;
 }
-
-
-/*
-
-* .social-media {
-   
-    text-align: center;
-   padding-top: 50px;
-   float: left;
-       
-   
-   }
-
-.contact {
-    width: 25%;
- text-align: center;
-    float:right;
-    padding-top: 35px;
-   margin-left: 37.5%;
-   margin-right: 37.5%;
 }
 
-*/
-
-}
 @media screen and (max-width: 660px) {
-    
-
-    
 #cover-text, #cover-text h2 {
     font-size: 130%;
     text-shadow: black 1px 2px;
 }
-   
     h1 {
         margin-left: 2%;
         margin-right: 2%;
     }
-
     #menu {
         font-size: 90%;
         display: block;
         color: #e8eaee;
         letter-spacing: 0;
         font-family: poppins, roboto, Arial, sans-serif;
-        
-     
     }
 
-
-
-
 @media screen and (max-width: 500px) {
-    
-
- 
    #logo {
        float: none;
        display: block;
        list-style-type: none;
        width: 0 auto;
    }
-
-  
-   
     #menu li {
         float: none;
-        display: inline-block;
+        display: block;
     text-align: center;
-    margin:0 3% 0 3%;
-    
-    
-   
-
     }
-
-    
-    
-
     #logo, #menu {
         text-align: center;
+        width:50%;
         margin-right: 25%;
-        margin-left: 25%;
+        margin-left: 25%; 
     }
-}
-
-    
+    }
     footer {
         height: 150px;
         width: 100%;
     }
-
     .social-media i {
         font-size: 150%;
         color: #e8eaee;
        margin-left: 20px;
         padding-left:1px ;
     }
-    
-    .contact th {
+    .contact p {
         font-size: 120%;
     }
-    
-    .contact td {
+    .contact a {
         font-size: 120%;
     }
-    
-    /*
-    .social-media {
-        display: block;
-         text-align: center;
-     padding-top: 50px;
-     float: none;
-        
-    
-    }
-    
-
-    .social-media > li {
-        display: block;
-        padding-top: 3%;
-       
-    }
-    */
-
-    #why-us h2{
-        
+    #why-us h2{   
         font-size: 90%;
     }
     #why-us > div li {
-      
-        font-size: 75%;
-        
+        font-size: 75%; 
     }
-
     .instruments, .instruments h1 {
-       
         font-size: 150%;
-        
-       
     }
     #why-us, #why-us h1 {
-     
         font-size: 150%;
     }
 }
-
 @media screen and (max-width: 420px) {
-   
     #menu li {
         float: none;
         display:block;
     text-align: center;
     margin:0 3% 0 3%;
 }
-   
     #why-us div {
         float: none;
         width: 100%;
         margin: 10% 20% 0 0;
         padding: 0;
     }
-
-    
 #cover-text, #cover-text h2 {
     font-size: 120%;
     text-shadow: black 1px 2px;
-/*
-    .contact {
-        width: 25%;
-     text-align: center;
-        float:none;
-        padding-top: 50px;
-       margin-left: 25%;
-       margin-right: 25%;
-    }
-
-   */
 }
-    
-   #why-us h2{
-        
+   #why-us h2{    
     font-size: 90%;
 }
-
-
     #why-us > div li {
-      
-        font-size: 65%;
-        
+        font-size: 65%; 
     }
-
     .instruments, .instruments h1 {
-       
         font-size: 130%;
-        
-       
     }
     #why-us, #why-us h1 {
-     
         font-size: 130%;
     }
-
     .social-media i {
         font-size: 130%;
         color: #e8eaee;
        margin-left: 5px;
         padding-left:2px ;
     }
-    
-    .contact th {
+    .contact p {
         font-size: 100%;
     }
-    
-    .contact td {
+    .contact a {
         font-size: 100%;
     }
-
 }
-
 }
