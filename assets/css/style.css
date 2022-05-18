@@ -404,9 +404,12 @@ footer {
 
 }
 @media screen and (max-width: 660px) {
-    #cover-text {
-        height:30%;
-    }
+    
+
+    
+#cover-text, #cover-text h2 {
+    font-size: 130%;
+    text-shadow: black 1px 2px;
     h1 {
         margin-left: 2%;
         margin-right: 2%;
@@ -500,6 +503,11 @@ footer {
         margin: 10% 20% 0 0;
         padding: 0;
     }
+
+    
+#cover-text, #cover-text h2 {
+    font-size: 120%;
+    text-shadow: black 1px 2px;
 /*
     .contact {
         width: 25%;
