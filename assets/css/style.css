@@ -34,7 +34,7 @@ body {
 #menu {
     font-size: 150%;
     color: #e8eaee;
-    letter-spacing: 0;
+    letter-spacing: 5px;
     font-family: poppins, roboto, Arial, sans-serif;
  
 }
