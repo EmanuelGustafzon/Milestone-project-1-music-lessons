@@ -36,7 +36,7 @@ body {
     color: #e8eaee;
     letter-spacing: 5px;
     font-family: poppins, roboto, Arial, sans-serif;
- 
+    
 }
 
 #menu, #logo {
@@ -49,6 +49,7 @@ body {
     float: right;
   list-style-type: none;
   margin-right: 40px ;
+ 
 }
 
 #menu a {
@@ -276,12 +277,13 @@ float: left;
 @media screen and (max-width: 1300px) {
     
     .instruments div {
-        display: block;
+        
         width: 50%;
         margin: 0 auto ;
         margin-top: 1%;
       
     }
+    
     
 #why-us div {
     float: none;
@@ -295,35 +297,11 @@ hr {
    margin-left:25%;
    margin-right:25% ;
 }
-
-
-
- 
-   #logo {
-       float: none;
-       display: block;
-       list-style-type: none;
-       width: 0 auto;
-   }
-   
-    #menu li {
-        float: none;
-        display: inline-block;
-    text-align: center;
-    margin:0 3% 0 3%;
-   
-
-    }
-     a {
-        text-decoration: none;
-    }
-
-    #logo, #menu {
-        text-align: center;
-        margin-right: 25%;
-        margin-left: 25%;
-    }
+a {
+    text-decoration: none;
 }
+
+
 
 @media screen and (max-width: 940px) {
    
@@ -419,6 +397,7 @@ footer {
 
     #menu {
         font-size: 90%;
+        display: block;
         color: #e8eaee;
         letter-spacing: 0;
         font-family: poppins, roboto, Arial, sans-serif;
@@ -430,6 +409,39 @@ footer {
 
 
 @media screen and (max-width: 500px) {
+    
+
+ 
+   #logo {
+       float: none;
+       display: block;
+       list-style-type: none;
+       width: 0 auto;
+   }
+
+  
+   
+    #menu li {
+        float: none;
+        display: inline-block;
+    text-align: center;
+    margin:0 3% 0 3%;
+    
+   
+
+    }
+
+    
+    
+
+    #logo, #menu {
+        text-align: center;
+        margin-right: 25%;
+        margin-left: 25%;
+    }
+}
+
+    
     footer {
         height: 150px;
         width: 100%;
