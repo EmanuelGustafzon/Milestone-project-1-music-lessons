@@ -285,7 +285,7 @@ float: left;
         display: block;
         width: 50%;
         margin: 0 auto ;
-        margin-top: 2%;
+        margin-top: 1%;
       
     }
     
@@ -382,6 +382,10 @@ float: none;
     #cover-text {
         height:30%;
     }
+    h1 {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
 }
 
 @media screen and (max-width: 445px) {
@@ -389,6 +393,7 @@ float: none;
         height: 500px;
         width: 100%;
     }
+    
     
     .social-media {
        display: block;
