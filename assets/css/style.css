@@ -19,8 +19,9 @@ body {
 }
 
 /* logo and nav */
- header {
-    position:relative;
+
+header {
+    background-color: rgba(25, 153, 179, 0.9);
 }
 #logo {
     float: left;
@@ -44,6 +45,7 @@ body {
 #menu, #logo {
     line-height: 75px;   
     overflow: hidden;
+   
 }
 #menu li {
     float: left;
@@ -193,7 +195,7 @@ hr {
 
 /*footer*/
 footer {
-    height: 150px;
+    height: 140px;
     width: 100%;
     bottom: 0;
     background: #1999b3;
