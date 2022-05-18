@@ -18,7 +18,9 @@ body {
 
 /* logo and nav */
  
-
+header {
+    position:relative;
+}
 
 #logo {
     float: left;
@@ -43,7 +45,6 @@ body {
 #menu, #logo {
     line-height: 75px;
     overflow:hidden;
-  
     
 }
 
@@ -131,6 +132,10 @@ body {
     padding: 60px;
     margin: 5px;
     
+}
+
+#guitar-image {
+    background:url(../images/caio-silva-C7RFkKvThG4-unsplash\ 300.jpg) no-repeat ;
     width: 300px;
     height: 300px;
     border-radius: 50%;
@@ -138,23 +143,48 @@ body {
     
    border: 2px solid #e8eaee;
    box-sizing: border-box;
-}
-
-#guitar-image {
-    background:url(../images/caio-silva-C7RFkKvThG4-unsplash\ 300.jpg) no-repeat ;
+   
 }
 
 #piano-image {
-    background:url(../images/dolo-iglesias-FjElUqGfbAw-unsplash\ 300.jpg) no-repeat;  
+    background:url(../images/dolo-iglesias-FjElUqGfbAw-unsplash\ 300.jpg) no-repeat;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    opacity: 0.7;
+    
+    border: 2px solid #e8eaee;
+    box-sizing: border-box;
+    padding-bottom: 50px;
+   
+    
 }
 
 #sing-image {
     background:url(../images/corey-young-1cNpSv61ZDo-unsplash\ 300.jpg) no-repeat ;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    opacity: 0.7;
+  
+    border: 2px solid #e8eaee;
+    box-sizing: border-box;
+   
 
 }
 
 #drum-image {
-    background:url(../images/puk-khantho-4E0Y320X1BU-unsplash\ 300.jpg) no-repeat ; 
+    background:url(../images/puk-khantho-4E0Y320X1BU-unsplash\ 300.jpg) no-repeat ;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    opacity: 0.7;
+   
+    border: 2px solid #e8eaee;
+    box-sizing: border-box;
+  
+ 
+    
 }
 
 
@@ -251,7 +281,8 @@ float: left;
     
     .instruments div {
         
-        width: 50%;
+        width: 100%;
+        display: block;
         margin: 0 auto ;
         margin-top: 1%;
       
