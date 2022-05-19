@@ -32,25 +32,26 @@
         </nav>
     </header>
 
-    <form action="#">
-        <label for="fname">First Name</label>
-        <input id="fname" type="text">
-        <label for="lname">Last Name</label>
-        <input id="lname" type="text">
-        <label for="email">Email</label>
-        <input id="email" type="email">
-        <label for="number">Phone Number</label>
-        <input id="number" type="number">
-
+    <form id="form" method="post"action="#">
+        <label class="form-label" for="fname">First Name</label>
+        <input class="form-input" id="fname" type="text">
+        <label class="form-label" for="lname">Last Name</label>
+        <input class="form-input" id="lname" type="text">
+        <label class="form-label" for="email">Email</label>
+        <input class="form-input" id="email" type="email">
+        <label class="form-label" for="number">Phone Number</label>
+        <input class="form-input" id="number" type="number">
+<label for="radio" class="form-label">Instrument</label>
+        <div class="radio-class" id="radio">
         <label for="guitar">Guitar</label>
-        <input id="guitar" type="radio" name="instrument">
+        <input class="form-radio" id="guitar" type="radio" name="instrument">
         <label for="piano">Piano</label>
-        <input id="piano" type="radio" name="instrument">
+        <input class="form-radio" id="piano" type="radio" name="instrument">
         <label for="singing">Singing</label>
-        <input id="singing" type="radio" name="instrument">
+        <input class="form-radio" id="singing" type="radio" name="instrument">
         <label for="drums">Drums</label>
-        <input id="drums" type="radio" name="instrument">
-
+        <input class="form-radio" id="drums" type="radio" name="instrument">
+    </div>
     </form>
     
     <footer>
