@@ -321,15 +321,23 @@ color: #ffa733;
 /* Here starts the apply page */
 
 #form {
-    width:25%;
-    height:300px;
-    background-color: #1999b3;
+    width:40%;
+    height:450px;
+    border-radius: 30px;
+    background-color: #f78e69;
+    opacity: 0.9;
     overflow: hidden;
-    margin-left: 25%;
+    margin-left: 30%;
     margin-top: 10%;
     font-size: 120%;
-    color: #ffa733;
+    color: #1f345b;
     font-family: poppins, roboto, arial, sans-serif;
+}
+
+#form h3 {
+    text-align: center;
+    margin-top: 10px;
+    color: #1f345b;
 }
 
 .form-label {
@@ -341,18 +349,42 @@ color: #ffa733;
    width:50%;
     text-align: center;
     margin-left:25%;
+    padding: 5px 0;
+    border: solid 2px #e8eaee;
+    border-radius: 30px;
+    background:transparent;
+    color: #e8eaee;
+    
   }
   .radio-class {
   text-align: center;
      
    }
+   #instruments {
+    text-align: center;
+}
+
+#submit {
+    margin-left: 42%;
+    margin-top: 20px;
+    padding: 15px 30px;
+    border: solid 2px #e8eaee;
+    border-radius: 30px;
+    background:transparent;
+    color: #e8eaee;
+}
+
+#submit:hover {
+    background-color: #ffa733;
+}
 
    #form-image {
        background: url(../images/yvette-de-wit-NYrVisodQ2M-unsplash\ bäst\ för\ visning.jpg) no-repeat center center;
        width: 100%;
        height: 900px;
-
    }
+
+   
 
 
 /* media screens */
