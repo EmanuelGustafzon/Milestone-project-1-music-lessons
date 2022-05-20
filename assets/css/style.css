@@ -321,14 +321,14 @@ color: #ffa733;
 /* Here starts the apply page */
 
 #form {
-    width:40%;
+    width:50%;
     height:450px;
     border-radius: 30px;
     background-color: #f78e69;
     opacity: 0.9;
     overflow: hidden;
-    margin-left: 30%;
-    margin-top: 10%;
+    margin-left: 25%;
+    margin-top: 100px;
     font-size: 120%;
     color: #1f345b;
     font-family: poppins, roboto, arial, sans-serif;
@@ -336,6 +336,7 @@ color: #ffa733;
 
 #form h3 {
     text-align: center;
+    font-size: 100%;
     margin-top: 10px;
     color: #1f345b;
 }
@@ -346,9 +347,9 @@ color: #ffa733;
 }
 
 .form-input {
-   width:50%;
+   width:80%;
     text-align: center;
-    margin-left:25%;
+    margin-left:10%;
     padding: 5px 0;
     border: solid 2px #e8eaee;
     border-radius: 30px;
@@ -365,7 +366,8 @@ color: #ffa733;
 }
 
 #submit {
-    margin-left: 42%;
+    width: 25%;
+    margin-left: 37.5%;
     margin-top: 20px;
     padding: 15px 30px;
     border: solid 2px #e8eaee;
@@ -382,6 +384,7 @@ color: #ffa733;
        background: url(../images/yvette-de-wit-NYrVisodQ2M-unsplash\ bäst\ för\ visning.jpg) no-repeat center center;
        width: 100%;
        height: 900px;
+       margin-top: 100px;
    }
 
    
@@ -508,6 +511,28 @@ footer {
         margin-bottom: 7%;
       
     }
+    /*here starts apply page */
+
+    #form {
+        width:70%;
+        height:450px;
+        border-radius: 30px;
+        background-color: #f78e69;
+        opacity: 0.9;
+        overflow: hidden;
+        margin-left: 15%;
+        margin-top: 100px;
+        font-size: 120%;
+        color: #1f345b;
+        font-family: poppins, roboto, arial, sans-serif;
+    }
+    
+    #form h3 {
+        text-align: center;
+        font-size: 100%;
+        margin-top: 10px;
+        color: #1f345b;
+    }
 }
 
 @media screen and (max-width: 660px) {
@@ -527,8 +552,59 @@ footer {
         font-family: poppins, roboto, Arial, sans-serif;
     }
 
+    /*here starts apply page */
+
+    #form {
+        width:75%;
+        height:450px;
+        border-radius: 30px;
+        background-color: #f78e69;
+        opacity: 0.9;
+        overflow: hidden;
+        margin-left: 12.5%;
+        margin-top: 100px;
+        font-size: 100%;
+        color: #1f345b;
+        font-family: poppins, roboto, arial, sans-serif;
+    }
+    
+    
+
+    #form h3 {
+        text-align: center;
+        font-size: 80%;
+        margin-top: 10px;
+        color: #1f345b;
+    }
+    
+
+    
+    .form-input {
+       width:80%;
+       
+        text-align: center;
+        margin-left:10%;
+        padding: 5px 0;
+        border: solid 2px #e8eaee;
+        border-radius: 30px;
+        background:transparent;
+        color: #e8eaee;
+        
+      }
+
+      #submit {
+          width: 80%;
+          margin-left: 10%;
+      }
+
+}
+
 @media screen and (max-width: 500px) {
-   #logo {
+   header {
+       height: 130px;
+   }
+   
+    #logo {
        float: none;
        list-style-type: none;
        width: 0 auto;
@@ -580,10 +656,12 @@ footer {
     #why-us, #why-us h1 {
         font-size: 150%;
     }
+
+
 }
 @media screen and (max-width: 420px) {
     
-}
+
     #why-us div {
         float: none;
         width: 100%;
@@ -647,6 +725,51 @@ footer {
             #programme-2 p{
                 font-size: 85%;
                 }
+
+                /*here starts apply page*/
+
+                #form {
+                    width:90%;
+                    height:400px;
+                    border-radius: 30px;
+                    background-color: #f78e69;
+                    opacity: 0.9;
+                    overflow: hidden;
+                    margin-left: 5%;
+                    margin-top: 100px;
+                    font-size: 80%;
+                    color: #1f345b;
+                    font-family: poppins, roboto, arial, sans-serif;
+                }
+                
+                
+            
+                #form h3 {
+                    text-align: center;
+                    font-size: 100%;
+                    margin-top: 10px;
+                    color: #1f345b;
+                }
+                
+            
+                
+                .form-input {
+                   width:80%;
+                   
+                    text-align: center;
+                    margin-left:10%;
+                    padding: 5px 0;
+                    border: solid 2px #e8eaee;
+                    border-radius: 30px;
+                    background:transparent;
+                    color: #e8eaee;
+                    
+                  }
+            
+                  #submit {
+                      width: 80%;
+                      margin-left: 10%;
+                  }
 }
 
 
