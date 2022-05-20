@@ -386,7 +386,7 @@ color: #ffa733;
        height: 900px;
        margin-top: 100px;
    }
-
+ 
    
 
 
@@ -532,6 +532,13 @@ footer {
         font-size: 100%;
         margin-top: 10px;
         color: #1f345b;
+    }
+
+    #form-image {
+        background: url(../images/yvette-de-wit-NYrVisodQ2M-unsplash\ 1350.jpg) no-repeat center center;
+        width: 100%;
+        height: 900px;
+        margin-top: 100px;
     }
 }
 
@@ -728,6 +735,7 @@ footer {
 
                 /*here starts apply page*/
 
+                
                 #form {
                     width:90%;
                     height:400px;
@@ -770,6 +778,8 @@ footer {
                       width: 80%;
                       margin-left: 10%;
                   }
+
+                
 }
 
 
