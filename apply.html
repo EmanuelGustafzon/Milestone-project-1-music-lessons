@@ -31,28 +31,31 @@
             </list>
         </nav>
     </header>
-
+<section id="form-image">
     <form id="form" method="post"action="#">
         <label class="form-label" for="fname">First Name</label>
-        <input class="form-input" id="fname" type="text">
+        <input class="form-input" id="fname" type="text" name="fname" placeholder="First Name" required>
         <label class="form-label" for="lname">Last Name</label>
-        <input class="form-input" id="lname" type="text">
+        <input class="form-input" id="lname" type="text" name="lame" placeholder="Last Name" required>
         <label class="form-label" for="email">Email</label>
-        <input class="form-input" id="email" type="email">
+        <input class="form-input" id="email" type="email" name="email" placeholder="Email" required>
         <label class="form-label" for="number">Phone Number</label>
-        <input class="form-input" id="number" type="number">
-<label for="radio" class="form-label">Instrument</label>
-        <div class="radio-class" id="radio">
+        <input class="form-input" id="number" type="number" name="number" placeholder="Phone number" required>
+        
+        <div id="instrument">
+        <label for="radio" class="form-label">Instrument</label>
         <label for="guitar">Guitar</label>
-        <input class="form-radio" id="guitar" type="radio" name="instrument">
+        <input class="form-radio" id="guitar" type="radio" name="instrument" required>
         <label for="piano">Piano</label>
-        <input class="form-radio" id="piano" type="radio" name="instrument">
+        <input class="form-radio" id="piano" type="radio" name="instrument" required>
         <label for="singing">Singing</label>
-        <input class="form-radio" id="singing" type="radio" name="instrument">
+        <input class="form-radio" id="singing" type="radio" name="instrument" required>
         <label for="drums">Drums</label>
-        <input class="form-radio" id="drums" type="radio" name="instrument">
+        <input class="form-radio" id="drums" type="radio" name="instrument" required>
     </div>
     </form>
+
+</section>
 
     
     

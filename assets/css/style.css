@@ -318,7 +318,7 @@ color: #ffa733;
   
 }
 
-/* Here starts the contact page */
+/* Here starts the apply page */
 
 #form {
     width:25%;
@@ -345,6 +345,13 @@ color: #ffa733;
   .radio-class {
   text-align: center;
      
+   }
+
+   #form-image {
+       background: url(../images/yvette-de-wit-NYrVisodQ2M-unsplash\ bäst\ för\ visning.jpg) no-repeat center center;
+       width: 100%;
+       height: 900px;
+
    }
 
 
