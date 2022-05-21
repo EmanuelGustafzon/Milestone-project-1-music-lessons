@@ -49,7 +49,13 @@ picture
   - I have confirmed that the application form requieres all the fields to be fulfiled and the submit button work. 
   - I discovered some bugs while I was testing the website. The main ones was that the text sometimes dissapeared on smaller screens and I needed to make the containers larger, content smaller or add margin. 
 
-  
+  ## Validator
+
+  - HTML 
+    - No errors were found when passing throughout official W3C Validator.
+
+  - CSS
+    - No errors were found when passing throughout official W3C Validator.
   
 
 
