@@ -39,6 +39,19 @@ picture
   - The form is in another color to make it stand out from the rest of the page as it is a special page in the way that it is for the users who decided to buy the course. 
   - The image in the background matches with the colors of the form and makes it beautiful and inspirational. 
 
+  picture
+
+  ## Testing 
+
+  - I have tested and the website works on Chrome, Firefox and microsoft edge browser on mobile,tablet and desktop.
+  - I used the developer tool to confirm the website is responsive to all screens. 
+  - By asking users I cloud confirm that the website looks proffesional, that it engages with the user and that it is easy to read, understand and navigate throught the page. 
+  - I have confirmed that the application form requieres all the fields to be fulfiled and the submit button work. 
+  - I discovered some bugs while I was testing the website. The main ones was that the text sometimes dissapeared on smaller screens and I needed to make the containers larger, content smaller or add margin. 
+
+  
+  
+
 
 
 
