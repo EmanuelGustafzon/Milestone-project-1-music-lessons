@@ -29,7 +29,15 @@ picture
 picture
 
 - Details section 
-  -
+  - This page provides a overview of the programme. Here the user can read about the programme, what it includes, how many hours the students need to put everery week, what is needed to start the programme, when it starts and the cost.
+  - There is two pictures that engages with the users, brings coriosity and excitement. 
+
+picture
+
+- The apply section 
+  - A application form that is quick and easy to use. Those who decided to dedicate themself to learn an instrument can easily fill the form and apply.
+  - The form is in another color to make it stand out from the rest of the page as it is a special page in the way that it is for the users who decided to buy the course. 
+  - The image in the background matches with the colors of the form and makes it beautiful and inspirational. 
 
 
 
