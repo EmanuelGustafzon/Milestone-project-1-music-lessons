@@ -77,7 +77,7 @@ header {
 margin-top: 100px;
     position: relative;
 }
-#cover-text, #cover-text h2 {
+#cover-text, #cover-text h1 {
     font-size: 160%;
     text-shadow: black 1px 2px;  
 }
@@ -102,7 +102,7 @@ margin-top: 100px;
 }
 
 /* Our instruments section */
-.instruments, .instruments h1 {
+.instruments, .instruments h2 {
     text-align: center;
     color: #ffa733;
     font-family: poppins, roboto, Arial, sans-serif;
@@ -161,7 +161,7 @@ margin-top: 100px;
 }
 
 /* Why us page */
- #why-us, #why-us h1 {
+ #why-us, #why-us h2 {
     text-align: center;
     color: #ffa733;
     font-family: poppins, roboto, Arial, sans-serif;
@@ -174,7 +174,7 @@ margin-top: 100px;
 #why-us {
     margin-bottom: 250px;
 }
-#why-us h2{
+#why-us h3{
     color: #e8eaee;
     font-size: 90%;
 }
@@ -543,7 +543,7 @@ footer {
 }
 
 @media screen and (max-width: 660px) {
-#cover-text, #cover-text h2 {
+#cover-text, #cover-text h1 {
     font-size: 130%;
     text-shadow: black 1px 2px;
 }
@@ -657,10 +657,10 @@ footer {
     #why-us > div li {
         font-size: 75%; 
     }
-    .instruments, .instruments h1 {
+    .instruments, .instruments h2 {
         font-size: 150%;
     }
-    #why-us, #why-us h1 {
+    #why-us, #why-us h2 {
         font-size: 150%;
     }
 
@@ -679,7 +679,7 @@ footer {
     font-size: 120%;
     text-shadow: black 1px 2px;
 }
-   #why-us h2{    
+   #why-us h3{    
     font-size: 90%;
 }
     #why-us > div li {
