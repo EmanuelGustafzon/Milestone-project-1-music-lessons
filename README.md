@@ -8,7 +8,7 @@ Iplay is a promotional page for a twelevle months music learning programme. The 
   - The navigation bar has a fixed position at the top and are featured on all three pages. The navbar is responsive and includes four links, home, details, apply and the logo link brings you back to the home page. 
   - The user can easily navigate throuhout the pages on all devices without having to revert back to the previous page. 
 
-![Navigation bar](../Milestone-project-1-music-lessons/assets/images/navigation.PNG)
+![Navigation bar](/assets/images/navigation.PNG)
 
 - The hero section
   - This is the first thing the user will see on the page. the image is relevent for the page because it is a band playing on the stage. The user can see that the page is about music and get inspired by the picture as the targeted user is supposed to be dreaming of learning an instrument.
