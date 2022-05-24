@@ -80,7 +80,6 @@ Iplay is a promotional page for a twelevle months music learning programme. The 
 - Solved
 
   - Instead of using a nav in the header I used a list attribute. I simply fixed this by putting the list into a nav tag.
-  - I used H1 tags in subheadings. I changed those to h2 tags.
   - In the CSS stylesheet I doublewrote some code for both desktop and mobile devices. This slowed down the loading time. I changed this by deleting the code for mobile screens. 
 
 - Unsolved bugs
@@ -93,17 +92,18 @@ Iplay is a promotional page for a twelevle months music learning programme. The 
    - Optimizing the photos for loading time on mobile devices. As the webiste is loading the desktop view first the photo in the apply page needed to be smaller on smaller screens to load faster. 
   
 - To implement 
-  - Make the application form work in the backend.
+  - Make the application form work in the backend and add a thankyou page.
 
   ## Deployment 
 
   This site was depolyed to Github pages. The steps of deployment was following. 
 
-- First of all I opened the right Repository in my GitHub account. 
-- Then I opened settings.
+- I used gitpod to code the webiste and by using the terminal and the commands, git add ., git commit -m"" and git push I cloud get the files into GitHub.
+- In my GitHub account I cloud deploy the website by first of all open the right repositry. 
+- In the repositry I opened settings.
 - From settings I went into pages. 
 - I changed the source branch to "Main".
-- Then I pressed save and the URL were created. 
+- Then I pressed save and the URL were created and website deployed.
 
   ## Credits 
 
