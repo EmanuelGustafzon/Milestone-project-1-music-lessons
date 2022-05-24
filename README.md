@@ -1,42 +1,43 @@
 # IPLAY Music Lessons
-Iplay is a promotional page for a twelevle months music learning programme. The programme is for private persons who wants to learn an instrument. This programme is fully online so that anyone can participate. People who lives outside of the city or for other reason cannot take music lessons phyically can easyly participate from home. follow this link and see the website live: https://emanuelgustafzon.github.io/Milestone-project-1-music-lessons/.
+Iplay is a promotional page for a twelevle months music learning programme. The programme is for private persons who wants to learn an instrument. This programme is fully online so anyone can participate. People who lives outside of the city or for other reason cannot take part of music lessons phyically can easyly participate from home. follow this link and see the website live: 
+## https://emanuelgustafzon.github.io/Milestone-project-1-music-lessons/.
 
 ![Resposivity](/assets/images/different-screens.jpg)
 
 ## Features 
 - Navigation
-  - The navigation bar has a fixed position at the top and are featured on all three pages. The navbar is responsive and includes four links, home, details, apply and the logo link brings you back to the home page. 
+  - The navigation bar has a fixed position at the top and are featured on all three pages. The navbar is responsive and includes four links, home, details, apply and the logo has a link that brings you back to the home page. 
   - The user can easily navigate throuhout the pages on all devices without having to revert back to the previous page. 
 
 ![Navigation bar](/assets/images/navigation.PNG)
 
 - The hero section
-  - This is the first thing the user will see on the page. the image is relevent for the page because it is a band playing on the stage. The user can see that the page is about music and get inspired by the picture as the targeted user is supposed to be dreaming of learning an instrument.
+  - This is the first thing the user will see when visiting the page. the image is relevent for the page because it is a band playing on the stage. The user can see that the page is about music and get inspired by the picture as the targeted user is supposed to be dreaming of learning an instrument.
   - The text describes what IPLAY is all about. "Learn music from home in tweleve months". The users can see that IPLAY provides music lessons and that you can participate from home. 
 
 ![Hero section](/assets/images/hero.jpg)
  
 - Our classes section
-  - So far the user knows that the page is about music lessons but do not know what classes Iplay has. That is why this page is appearing next. 
+  - So far the user know that the page is about music lessons but do not know what classes Iplay has. That is why this page is appearing next. 
   - This section has four eyecathing round images together with a text with the names of the instruments. This makes the user awere of what is provided and again can get inspired to start the programme by watching the pictures. 
 
 ![Classes section](/assets/images/Classes.jpg)
 
 - Why us section
   - This section provides information about why the user should learn music with IPLAY. It answers the doubts that the users may have about the programme and what the benefits are.
-  - This section is devided in four lists that makes it easy to read and understand. 
+  - This section is devided in four lists witch makes it easy to read and understand. 
 
 ![The why us section](/assets/images/why-us.jpg)
 
 - Details section 
-  - This page provides a overview of the programme. Here the user can learn about the programme and read practical information. This page is for users who concider to apply for the programme. 
+  - This page provides an overview of the programme. The user can learn about the programme and read practical information. This page is for users who concider to apply for the programme. 
   - There is two pictures that engages with the users and brings coriosity and excitement. 
 
 ![Details page](/assets/images/overview.jpg)
 
 - The apply section 
-  - An application form that is quick and easy to use. Those who decided to dedicate themself to learn an instrument can easily fill the form and apply.
-  - The form is in another color to make it stand out from the rest of the page as it is a special page in the way that it is for the users who decided to buy the course. 
+  - An application form that is quick and easy to fill in. Those who decided to dedicate themself to learn an instrument can easily fill the form and apply.
+  - The form is in another color to make it stand out from the rest of the page. As this page is for the users who decided to apply for the programme it makes it a special page and therofore it is in another color.
   - The image in the background matches with the colors of the form and makes it beautiful and inspirational. 
 
   ![Application form](/assets/images/Apply.jpg)
@@ -98,7 +99,7 @@ Iplay is a promotional page for a twelevle months music learning programme. The 
 
   This site was depolyed to Github pages. The steps of deployment was following. 
 
-- First of all I opened the right Repository.
+- First of all I opened the right Repository in my GitHub account. 
 - Then I opened settings.
 - From settings I went into pages. 
 - I changed the source branch to "Main".
